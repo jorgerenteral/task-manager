@@ -1,2 +1,2 @@
-# task-manager
- Development based on Nasir Nurency0s design.
+# Task Manager
+ Development based on Nasir Nurency's design.
