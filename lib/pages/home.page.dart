@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:task_manager/constants/colors.constants.dart';
 import 'package:task_manager/styles/buttons.styles.dart';
 
 class HomePage extends StatefulWidget {
@@ -13,6 +14,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: ColorConstants.light,
       body: Container(
         padding: const EdgeInsets.all(36),
         alignment: Alignment.centerLeft,
@@ -46,7 +48,7 @@ class _HomePageState extends State<HomePage> {
         color: Colors.transparent,
         child: ButtonTheme(
           child: FilledButton(
-            onPressed: () => {},
+            onPressed: () => {Navigator.pushNamed(context, '/dashboard/home')},
             style: ButtonStyles.primaryButton(context),
             child: Text('Iniciar'.toUpperCase()),
           ),
