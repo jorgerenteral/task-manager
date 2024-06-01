@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:task_manager/constants/colors.constants.dart';
-import 'package:task_manager/styles/buttons.styles.dart';
+import 'package:task_manager/constants/colors_constants.dart';
+import 'package:task_manager/styles/buttons_styles.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key, required this.title});

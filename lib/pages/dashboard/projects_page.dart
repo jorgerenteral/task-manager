@@ -18,7 +18,7 @@ class _DashboardProjectsPageState extends State<DashboardProjectsPage> {
         child: const Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[],
+          children: <Widget>[Text('Hola')],
         ),
       ),
     );

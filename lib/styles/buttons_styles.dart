@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:task_manager/constants/colors.constants.dart';
+import 'package:task_manager/constants/colors_constants.dart';
 
 // Definir un nuevo tipo de TextTheme personalizado
 class ButtonStyles {

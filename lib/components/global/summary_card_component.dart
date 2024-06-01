@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:task_manager/constants/colors.constants.dart';
-import 'package:task_manager/constants/spacing.constants.dart';
+import 'package:task_manager/constants/colors_constants.dart';
+import 'package:task_manager/constants/spacing_constants.dart';
 
 class SummaryCardComponent extends StatelessWidget {
   final String title;
@@ -36,7 +36,7 @@ class SummaryCardComponent extends StatelessWidget {
     return ClipRRect(
       borderRadius: BorderRadius.circular(24),
       child: Container(
-        padding: const EdgeInsets.all(SpacingConstants.normalSpacing),
+        padding: const EdgeInsets.all(SpacingConstants.biggerSpacing),
         color: getSeverityColor(severity),
         child: Column(
           children: [

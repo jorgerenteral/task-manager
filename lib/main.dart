@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:task_manager/components/dashboard-home-app-bar.component.dart';
-import 'package:task_manager/components/default-app-bar.component.dart';
-import 'package:task_manager/constants/colors.constants.dart';
-import 'package:task_manager/layouts/dashboard.template.dart';
-import 'package:task_manager/pages/dashboard/projects.page.dart';
+import 'package:task_manager/components/dashboard_home_app_bar_component.dart';
+import 'package:task_manager/components/default_app_bar_component.dart';
+import 'package:task_manager/constants/colors_constants.dart';
+import 'package:task_manager/layouts/dashboard_template.dart';
+import 'package:task_manager/pages/dashboard/projects_page.dart';
 
-import 'package:task_manager/pages/home.page.dart';
-import 'package:task_manager/pages/dashboard/home.page.dart';
+import 'package:task_manager/pages/home_page.dart';
+import 'package:task_manager/pages/dashboard/home_page.dart';
 
 void main() {
   runApp(const SmartTaskManagerApp());

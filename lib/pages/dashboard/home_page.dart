@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:task_manager/components/dashboard/home/summary.component.dart';
-import 'package:task_manager/components/dashboard/home/title.component.dart';
+import 'package:task_manager/components/dashboard/home/summary_component.dart';
+import 'package:task_manager/components/dashboard/home/title_component.dart';
 
 class DashboardHomePage extends StatefulWidget {
   const DashboardHomePage({super.key, required this.title});

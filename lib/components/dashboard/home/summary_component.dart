@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:task_manager/components/global/summary-card.component.dart';
-import 'package:task_manager/constants/colors.constants.dart';
-import 'package:task_manager/constants/spacing.constants.dart';
+import 'package:task_manager/components/global/summary_card_component.dart';
+import 'package:task_manager/constants/colors_constants.dart';
+import 'package:task_manager/constants/spacing_constants.dart';
 
 class SummaryComponent extends StatelessWidget {
   const SummaryComponent({super.key});
